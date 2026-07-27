@@ -20,4 +20,4 @@ Evaluate the following:
 - Observable engagement indicators
 - Notable teaching or learning moments
 - Overall session summary
-"""pip install groq
+"""
