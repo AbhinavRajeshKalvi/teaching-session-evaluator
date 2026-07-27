@@ -1,0 +1,19 @@
+Teacher: Good morning! Today we'll learn about fractions.
+
+Student: I've always been confused about fractions.
+
+Teacher: That's okay. Imagine a pizza cut into two equal slices. If you eat one slice, you've eaten one-half of the pizza.
+
+Student: Oh, so one-half means one out of two equal parts?
+
+Teacher: Exactly! Now imagine the pizza is cut into four equal slices. If you eat one slice, what fraction have you eaten?
+
+Student: One-fourth.
+
+Teacher: Great! Which is larger, one-half or one-fourth?
+
+Student: One-half because the slices are bigger.
+
+Teacher: Excellent reasoning! You understood that very quickly.
+
+Student: That actually makes a lot more sense now.

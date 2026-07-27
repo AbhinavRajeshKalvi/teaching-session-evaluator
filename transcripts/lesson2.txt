@@ -1,0 +1,27 @@
+Teacher: Today we're solving linear equations.
+
+Teacher: Solve x + 5 = 12.
+
+Student: I don't know where to start.
+
+Teacher: We need to isolate x by subtracting 5 from both sides.
+
+Student: Why both sides?
+
+Teacher: Because we must keep the equation balanced.
+
+Student: I'm still confused.
+
+Teacher: Imagine a weighing scale. Whatever you do on one side, you must also do on the other.
+
+Student: Oh, that makes more sense.
+
+Teacher: Great. Now what's 12 minus 5?
+
+Student: Seven.
+
+Teacher: So x equals?
+
+Student: Seven.
+
+Teacher: Correct!
