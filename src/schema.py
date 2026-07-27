@@ -1,5 +1,5 @@
-from pydantic import BaseModel, Field
 from typing import List
+from pydantic import BaseModel, Field
 
 
 class Evaluation(BaseModel):
@@ -16,7 +16,7 @@ class Evaluation(BaseModel):
     clarity_score: int = Field(
         ge=1,
         le=10,
-        description="Teacher's clarity score from 1 to 10."
+        description="Teacher clarity score from 1 to 10."
     )
 
     pacing_score: int = Field(
@@ -26,13 +26,16 @@ class Evaluation(BaseModel):
     )
 
     engagement_indicators: List[str] = Field(
+        min_length=1,
         description="Observable signs of student engagement."
     )
 
     notable_moments: List[str] = Field(
-        description="Key teaching or learning moments."
+        min_length=1,
+        description="Important teaching or learning moments."
     )
 
     summary: str = Field(
+        min_length=20,
         description="A concise summary of the tutoring session."
-    )   
+    )
