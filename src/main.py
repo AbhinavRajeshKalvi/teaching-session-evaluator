@@ -17,6 +17,8 @@ for transcript_file in TRANSCRIPTS_DIR.glob("*.txt"):
 
     evaluation, response = evaluate_transcript(transcript)
 
+    print(response.usage_metadata)
+
     output_file = OUTPUT_DIR / f"{transcript_file.stem}.json"
 
     output_file.write_text(
