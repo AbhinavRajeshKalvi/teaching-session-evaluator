@@ -17,10 +17,8 @@ from google.genai.errors import ClientError
 from prompt import SYSTEM_PROMPT
 from schema import Evaluation
 
-# Load environment variables
 load_dotenv()
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -28,7 +26,6 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-# Initialize Gemini client
 client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
@@ -43,10 +40,8 @@ def should_retry(exception):
     if isinstance(exception, ClientError):
         status = getattr(exception, "status_code", None)
 
-        # Retry only on rate limiting or server errors
         return status == 429 or (status is not None and status >= 500)
 
-    # Retry all non-ClientError exceptions (timeouts, connection issues, etc.)
     return True
 
 @retry(
